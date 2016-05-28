@@ -4,7 +4,7 @@
 
 ## switch to my working dir "C:\data\RProgramming\cert2\week4\project" (windows 7 as OS)
 
-setwd("C:/data/RProgramming/cert2/week4/project")
+## setwd("C:/data/RProgramming/cert2/week4/project")
 
 ## assuming this file is downloaded for the first time
 ## download the file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip

@@ -30,5 +30,6 @@ After the zip file is unzipped on the local folder. The code is do the following
     - use cbind() - column-binding to combine all columns into the final data set "finalData"
     
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-    - use melt function in reshape2 library for aggregating means for each actvity and subject on the dataset created in step 4
+    - use melt and dcast functions in reshape2 library for aggregating means for each actvity and subject on the dataset created in step 4
     - output the file to mytidy.txt using write.table() with row.name = false
+    

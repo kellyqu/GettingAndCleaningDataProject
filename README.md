@@ -5,7 +5,7 @@ This code "run_analysis.R" runs based on below pre-conditions
 1) working directory exstis - ("C:/data/RProgramming/cert2/week4/project")
 2) the zip file is downloaded and unzipped first time
 
-above code is commented out. only used for your reference.
+setwd() code is commented out, and is only for your reference.
 
 After the zip file is unzipped on the local folder. The code is do the following to get the final output mytidy.txt file
 

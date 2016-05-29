@@ -2,20 +2,24 @@ Code Book Description
 
 Assignment : Getting and Cleaning Data Course Project
 
+RAW DATA SOURCE: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Full description of the data can be retrieved here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 This code book summarizes the resulting data fields in  mytidy.txt  file. 
 It is a data set with the average of each variable for each activity and each subject.
 
 Identifiers
-• subject  - The ID of the subjects - there are in total 30 subjects from combined "test" and "train" observations
-• activity  - The type of activity performed for each measurement with below labels. 
+â€¢ subject  - The ID of the subjects - there are in total 30 subjects from combined "test" and "train" observations
+â€¢ activity  - The type of activity performed for each measurement with below labels. 
 
 Activity Labels 
-• WALKING  as of value  1 
-• WALKING_UPSTAIRS  as value  2  
-• WALKING_DOWNSTAIRS  as of value  3 
-• SITTING  as of value  4 
-• STANDING  as of value 5 
-• LAYING  as of value 6 
+â€¢ WALKING  as of value  1 
+â€¢ WALKING_UPSTAIRS  as value  2  
+â€¢ WALKING_DOWNSTAIRS  as of value  3 
+â€¢ SITTING  as of value  4 
+â€¢ STANDING  as of value 5 
+â€¢ LAYING  as of value 6 
 
 Features with mean() and std() functions. This excludes functions with mean as partial function names.
 tBodyAcc-mean()-X
